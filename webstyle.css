@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: white;
+    
+}
+header{
+    display:flex;
+    align-items: center;
+}
+
+.navi ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px;
+    display: flex;
+}
+.navi a{
+    color: black;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align: center;
+}
+.navi a:hover{
+    background-color: grey;
+}
+.navi li{
+    float:left;
+    display: inline;
+    margin: 0px 3px;
+    padding: 5px;
+    }
+
